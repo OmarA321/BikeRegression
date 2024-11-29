@@ -1,2 +1,6 @@
 # BikeRegression
 AI final assignment Bike Regression
+
+Recording: https://youtu.be/T_EbbXt6FTU
+
+Abstract: The project develops a machine learning model that predicts the hourly bike rental demand by using previous historical data with multiple different types of features. The goal of the model is to help bike-sharing services further optimize their operations by accurately predicts the rental counts which can help businesses. I further enhanced the original dataset by adding extra features that is created by the combination of existing features like combining some time features together to figure out if it's day or night time, or checking seasons to know if it's cold or warm and so on. Multiple regression algorithms were evaluated using PyCaret, which included Extra Trees, and traditional approaches like Linear regression, extra trees emerged as the best-performing model by achieving R² score of 0.9285, indicating strong predictive capability. While the average prediction difference is 37.10%, which means the model was about 63% accurate or right two-thirds of the time. The model shows particular strength in normal operating conditions, with some sample predictions achieving accuracy within 3-5% of actual values.
